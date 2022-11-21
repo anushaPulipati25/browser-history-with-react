@@ -1,0 +1,86 @@
+.time {
+  font-family: roboto;
+  font-size: 14px;
+  color: #64748b;
+  font-weight: 500;
+  margin-top: 0px;
+  padding-right: 6px;
+}
+.logo {
+  height: 30px;
+  width: 30px;
+}
+.title {
+  font-family: roboto;
+  font-size: 16px;
+  color: #475569;
+  font-weight: 500;
+  margin-bottom: 0px;
+  /* margin-top: 0px; */
+}
+.domain {
+  color: #64748b;
+  text-decoration: none;
+  font-family: roboto;
+  font-size: 16px;
+  margin-top: 0px;
+}
+.button {
+  border-width: 0px;
+  background-color: transparent;
+}
+.deleteIcon {
+  height: 20px;
+  width: 20px;
+  margin: 10px;
+  margin-top: 0px;
+}
+.titleContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.deleteTitleContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 12px;
+  width: 100%;
+}
+.logoContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.itemContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .time {
+    width: 11%;
+  }
+  .logo {
+    height: 35px;
+    width: 35px;
+  }
+  .deleteIcon {
+    height: 25px;
+    width: 25px;
+  }
+  .itemContainer {
+    flex-direction: row;
+    align-items: center;
+  }
+  .logoDeleteContainer {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .time {
+    width: 8%;
+  }
+}
